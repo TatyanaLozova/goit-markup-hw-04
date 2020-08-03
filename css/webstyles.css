@@ -1,3 +1,122 @@
+
+/*Домашнее задание 4*/
+/*Хедер*/
+.overlay {
+background-image: linear-gradient(
+  
+ rgba(47, 48, 58, 0.8),
+ rgba(47, 48, 58, 0.8)
+    
+ ), url(/images/дз4/Header.jpg);
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  width: 1600px;
+}
+/*контакты в шапке*/
+
+.mail::before {
+  background-image: url(../images/дз4/envelope.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  content: "" ;
+  
+
+}
+
+.mob::before {
+  background-image: url(../images/дз4/smartphone.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  content: "" ;
+}
+  
+.icon-antena::before {
+  display: block;
+  content: "";
+    height: 120px;
+    width: 270px;
+  background-image: url(../images/дз4/особенности/antenna.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+   background-color: #F5F4FA;
+   border-radius: 4px;
+   margin-bottom: 30px;
+
+}
+
+.icon-closk::before {
+  display: block;
+  content: "";
+  height: 120px;
+  width: 270px;
+  background-image: url(../images/дз4/особенности/clock.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+   background-color: #F5F4FA;
+   border-radius: 4px;
+   margin-bottom: 30px;
+}
+
+
+.icon-diagram::before {
+  display: block;
+  content: "";
+  height: 120px;
+  width: 270px;
+  background-image: url(../images/дз4/особенности/diagram.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+   background-color: #F5F4FA;
+   border-radius: 4px;
+   margin-bottom: 30px;
+}
+
+.icon-astronavt::before {
+  display: block;
+  content: "";
+  height: 120px;
+  width: 270px;
+  background-image: url(../images/дз4/особенности/astronaut.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+   background-color: #F5F4FA;
+   border-radius: 4px;
+   margin-bottom: 30px;
+}
+
+
+/*кнопка футер*/
+
+
+ .fly::after {
+   content: "";
+   width: 20px;
+   height: 20px;
+   margin-left: 10px;
+   background-image: url(../images/дз4/fly.svg);
+   background-size: contain;
+   
+ }
+ 
+
+
+
+
+
+
+
 :root {
    --main-txt-color: #212121;
    --part-txt-color: #ffffff;
@@ -117,6 +236,7 @@ margin-right: 50px;
   }
   .menu-contact{
   list-style: none;
+  text-decoration: none;
   display: flex;
   }
   .menu-contact li {
@@ -127,6 +247,7 @@ outline: 2px solid #2196f3;
   }
 .menu-item {
 font-style: normal;
+text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
@@ -193,13 +314,13 @@ font-size: 14px;
 /*line-height: 1.71px;*/
 letter-spacing: 0.03em;
 color: var(--sec-txt-color);
-
+margin-bottom: 0; margin: 0;
 }
 
 .section {
 list-style:none;
 display: flex;
-margin-bottom: 94px;
+/*margin-bottom: 94px;*/
 }
 
  .headline {
