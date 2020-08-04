@@ -41,7 +41,15 @@ background-image: linear-gradient(
   height: 20px;
   content: "" ;
 }
-  
+  /*особенности */
+
+.feature li:not(:last-child) {
+  margin-right: 30px;
+  padding:  0;
+  margin: 0;
+}
+
+
 .icon-antena::before {
   display: block;
   content: "";
@@ -150,7 +158,7 @@ html {
 
  .conteiner {
   width: 1200px;
-  /*padding: 0 15px;*/
+  padding: 0 15px;
   margin: 0 auto;
   outline: 2px solid #2196f3;
   
@@ -162,6 +170,7 @@ html {
   justify-content: flex-end;*/
   
 }
+
 
 
 body {
@@ -324,6 +333,8 @@ margin-bottom: 0; margin: 0;
 .section {
 list-style:none;
 display: flex;
+padding: 0;
+margin: 0;
 /*margin-bottom: 94px;*/
 }
 
