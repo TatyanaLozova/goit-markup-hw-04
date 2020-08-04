@@ -497,9 +497,7 @@ width: calc((100% - 60px) / 3);
   background: var(--main-bg-color);
   padding-bottom: 36px;
 }
-.user li:nth-child(4n) {
-  margin-right: 0;
-}
+
 .our-team{
  display: flex;
  /*flex-wrap: wrap;*/
