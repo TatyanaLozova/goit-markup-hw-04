@@ -35,11 +35,12 @@ background-image: linear-gradient(
 }
 
 .mob::before {
+  content: "" ;
   background-image: url(../images/дз4/smartphone.svg);
   background-size: cover;
   width: 20px;
   height: 20px;
-  content: "" ;
+
 }
   /*особенности */
 
@@ -510,7 +511,7 @@ width: calc((100% - 60px) / 3);
 .social-flex{
   display: flex;
   list-style: none;
-  padding-left: 0;
+  /*padding-left: 0;*/
   justify-items: center;
   align-items: center;
 }
