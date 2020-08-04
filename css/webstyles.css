@@ -18,6 +18,10 @@ background-image: linear-gradient(
   height: 600px;
   width: 1600px;
 }
+
+.title {
+  padding-top: 200px
+}
 /*контакты в шапке*/
 
 .mail::before {
@@ -104,7 +108,7 @@ background-image: linear-gradient(
    content: "";
    width: 20px;
    height: 20px;
-   margin-left: 
+   margin-left: 10px;
    background-image: url(../images/дз4/fly.svg);
    background-size: contain;
    
@@ -187,7 +191,7 @@ margin-bottom: 30px;
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid #2196f3;
+/* outline: 2px solid #2196f3;*/
 
   display: flex;
   flex-direction: column;
