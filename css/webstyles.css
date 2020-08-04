@@ -25,6 +25,7 @@ background-image: linear-gradient(
 /*контакты в шапке*/
 
 .mail::before {
+  display: block;
   background-image: url(../images/дз4/envelope.svg);
   background-size: cover;
   width: 20px;
@@ -35,6 +36,7 @@ background-image: linear-gradient(
 }
 
 .mob::before {
+  display: block;
   content: "" ;
   background-image: url(../images/дз4/smartphone.svg);
   background-size: cover;
@@ -114,13 +116,14 @@ background-image: linear-gradient(
 
 
  .fly::after {
+   display: block;
    content: "";
    width: 20px;
    height: 20px;
    margin-left: 10px;
    background-image: url(../images/дз4/fly.svg);
    background-size: contain;
-   
+  
  }
  
 
