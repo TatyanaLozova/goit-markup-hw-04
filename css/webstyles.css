@@ -24,7 +24,7 @@ background-image: linear-gradient(
 }
 /*контакты в шапке*/
 
-.mail::before {
+/*.mail::before {
   display: inline-block;
   background-image: url(../images/дз4/envelope.svg);
   background-size: contain;
@@ -35,7 +35,7 @@ background-image: linear-gradient(
     width: 15px;
   height: 15px;
   align-self: flex-end;
-  content: "" ;
+  content: "" ;*/
   
 
 }
