@@ -137,6 +137,7 @@ background-image: linear-gradient(
 
 
 .social{
+display: block;
 width: 44px;
 height: 44px;
 padding: 0;
@@ -146,10 +147,10 @@ padding: 0;
 
 .icon-social{
   display: inline-flex;
-  fill: #afb1b8;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  fill: #afb1b8;
 }
 
 .icon-social:hover,
