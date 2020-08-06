@@ -24,6 +24,19 @@ background-image: linear-gradient(
 }
 /*контакты в шапке*/
 
+.menu-item {
+   color: #757575;
+  fill: #757575;
+}
+.menu-item:focus,
+.menu-item:hover {
+  color:  #2196f3;
+  fill:  #2196f3;
+
+
+
+}
+
 /*.mail::before {
   display: inline-block;
   background-image: url(../images/дз4/envelope.svg);
@@ -39,7 +52,7 @@ background-image: linear-gradient(
   
 
 }
-
+/*
 .mob::before {
   display: inline-block;
   content: "" ;
@@ -51,7 +64,7 @@ background-image: linear-gradient(
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
-  align-self: flex-end;
+  align-self: flex-end;*/
 
 }
   /*особенности */
@@ -120,10 +133,57 @@ background-image: linear-gradient(
    border-radius: 4px;
    margin-bottom: 30px;
 }
+/*Наша команда*/
+
+
+.social{
+  display: flex;
+width: 44px;
+height: 44px;
+
+}
+
+.icon-social{
+    
+  fill: #afb1b8;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.icon-social:hover,
+.icon-social:focus {
+  background-color: var(--accent-bg-color);
+  fill: #ffffff;
+}
+
+
+
+
+/*соцсети футер*/
+.soc-footer{
+  display: flex;
+width: 44px;
+height: 44px;
+}
+
+
+.icon-soc-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-soc-footer:hover,
+.icon-soc-footer:focus {
+background-color: var(--accent-color);
+}
+
 
 
 /*кнопка футер*/
-
  .fly::after {
    display:inline-block;
    content: "";
@@ -283,9 +343,9 @@ color: var(--sec-txt-color)
   margin-right: 0;
 }
 
-  .menu-item:focus,
+  /*.menu-item:focus,
   .menu-item:hover {
-  color: var(--accent-color);
+  color: var(--accent-color);*/
   }
 
 .menu-link:focus,
