@@ -1,3 +1,91 @@
+
+/*домашнее задание 4*/
+/*контакты в шапке*/
+
+.menu-item {
+  color: #757575;
+ fill: #757575;
+}
+
+.menu-item:focus,
+.menu-item:hover {
+ color:  #2196f3;
+ fill:  #2196f3;
+}
+
+
+ .icon-mail {
+ margin-right: 10px;
+ width: 16px;
+ height: 12px;
+ fill: currentColor;
+ }
+
+
+ .icon-smartphone{
+ margin-right: 10px;
+ width: 10px;
+ height: 15px;
+ fill: currentColor;
+ }
+
+
+/*Портфолио*/
+.container-li {
+margin-bottom: 30px;
+border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16)
+}
+
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*соцсети футер*/
+.soc-footer{
+  display: flex;
+width: 44px;
+height: 44px;
+}
+
+
+.icon-soc-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-soc-footer:hover,
+.icon-soc-footer:focus {
+background-color: var(--accent-color);
+}
+/*кнопка футер*/
+ .fly::after {
+   display:inline-block;
+   content: "";
+   width: 15px;
+   height: 15px;
+   margin-left: 10px;
+   background-image: url(../images/дз4/fly.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: right;
+  
+ }
+ 
+
+
+
+
+
+
+
+
 html {
   box-sizing: border-box;
 }
@@ -19,7 +107,7 @@ h3 {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid #2196f3;
+  /*outline: 2px solid #2196f3;*/
   
 }
 .nav {
@@ -44,7 +132,7 @@ h3 {
  margin-left: 50px;
 }
 .flex-nav li {
-outline: 2px solid #2196f3;
+/*outline: 2px solid #2196f3;*/
 }
 .menu-link {
   display: block;
@@ -79,7 +167,7 @@ outline: 2px solid #2196f3;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid #f06e22;
+  /*outline: 2px solid #f06e22;*/
 }
    
 .section {
@@ -90,10 +178,9 @@ outline: 2px solid #2196f3;
 .container-filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
   list-style: none;
- margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
   
 
 }
@@ -108,6 +195,7 @@ padding: 0;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  margin-top: 50px;
 }
 .container-li {
   display: block;
@@ -258,6 +346,7 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 text-decoration: none;
+padding-top: 20px;
 }
 .subtitle {
 font-style: normal;
@@ -270,6 +359,7 @@ text-decoration: none;
 
 }
 .text { 
+  display: none;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;

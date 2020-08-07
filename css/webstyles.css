@@ -28,11 +28,28 @@ background-image: linear-gradient(
    color: #757575;
   fill: #757575;
 }
+
 .menu-item:focus,
 .menu-item:hover {
   color:  #2196f3;
   fill:  #2196f3;
+}
 
+
+  .icon-mail {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  }
+
+
+  .icon-smartphone{
+  margin-right: 10px;
+  width: 10px;
+  height: 15px;
+  fill: currentColor;
+  }
 
 
 }
@@ -190,6 +207,11 @@ padding: 0;
   height: 59px;
 }
 
+/*наша команда*/
+.our-items {
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;}
+
 
 
 
@@ -262,7 +284,7 @@ html {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid #2196f3;
+  /*outline: 2px solid #2196f3;*/
   
 }
 
