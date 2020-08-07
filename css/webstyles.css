@@ -153,14 +153,14 @@ background-image: linear-gradient(
 /*Наша команда*/
 
 
-.social{
+/*.social{
 display: block;
 width: 44px;
 height: 44px;
-padding: 0;
+padding: 0;*/
 
 
-}
+
 
 .icon-social{
   display: inline-flex;
