@@ -173,7 +173,7 @@ padding: 0;*/
 .icon-social:hover,
 .icon-social:focus {
   background-color: var(--accent-bg-color);
-  fill: #ffffff;*/}
+  fill: #ffffff;*/
 
 
 
@@ -181,8 +181,8 @@ padding: 0;*/
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   fill:  #afb1b8;
   padding: 0;
@@ -641,7 +641,6 @@ width: calc((100% - 60px) / 3);
   }
 
 .our-team li{
-  margin-right: 10px;
   background: var(--main-bg-color);
   padding-bottom: 36px;
 }
@@ -653,9 +652,7 @@ width: calc((100% - 60px) / 3);
   margin: 0;
   padding-bottom: 94px;
   }
-.our-team li {
-   margin-right: 30px;
-}
+
 .our-items{
  width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;}
