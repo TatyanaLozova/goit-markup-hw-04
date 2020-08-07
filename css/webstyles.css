@@ -184,20 +184,21 @@ padding: 0;*/
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill:  #afb1b8;
   padding: 0;
   margin: 0;
+  color:#afb1b8 ;
+  
 }
 
 
 .social:hover,
 .social:focus {
-  fill: #ffffff;
-  background-color: var(--accent-color);
+   background-color: var(--accent-color);
+   color: #ffffff;
 }
 
 .icon-social {
-  fill:  #afb1b8;
+  fill: currentColor;
   
  
 }
