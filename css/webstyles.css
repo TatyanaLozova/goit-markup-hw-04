@@ -241,25 +241,27 @@ border-radius: 0px 0px 4px 4px;}
 
 
 /*соцсети футер*/
-.soc-footer{
+
+
+
+.soc-footer {
+  
+  justify-content: center;
+  align-items: center;
   display: flex;
-width: 44px;
-height: 44px;
-}
-
-
-.icon-soc-footer {
+  width: 44px;
+  height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
 }
 
-.icon-soc-footer:hover,
-.icon-soc-footer:focus {
+.soc-footer:hover,
+.soc-footer:focus {
 background-color: var(--accent-color);
 }
+
+
 /*кнопка футер*/
  .fly::after {
    display:inline-block;
