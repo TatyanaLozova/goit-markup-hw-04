@@ -2,6 +2,11 @@
 /*домашнее задание 4*/
 /*контакты в шапке*/
 
+a {
+  text-decoration:none;
+  color: #000 
+}
+
 .menu-item {
   color: #757575;
  fill: #757575;
@@ -31,6 +36,14 @@
 
 
 /*Портфолио*/
+
+.block-text{
+padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
 .container-li {
 margin-bottom: 30px;
 border: 1px solid #EEEEEE;
@@ -346,7 +359,7 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 text-decoration: none;
-padding-top: 20px;
+
 }
 .subtitle {
 font-style: normal;

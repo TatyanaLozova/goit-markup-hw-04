@@ -1,5 +1,10 @@
 
 /*Домашнее задание 4*/
+
+a {
+  text-decoration:none;
+color: #000 
+}
 /*Хедер*/
 .overlay {
 background-image: linear-gradient(
