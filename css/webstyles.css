@@ -311,6 +311,11 @@ html {
     letter-spacing: 0.02em;
   
   }
+  .conteiner-a {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 
  .conteiner {
   width: 1200px;
@@ -530,12 +535,22 @@ text-decoration: none;
 
 .footer{
 font-family: "Roboto", sans-serif, 
+
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 background: var(--footer-bg-color) ;
+
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+height: 200px;
+width: 1600px;
+
 } 
 
 .logo-footer{
