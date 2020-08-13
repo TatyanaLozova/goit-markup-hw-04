@@ -520,6 +520,13 @@ text-decoration: none;
  background:var(--features-bg-color);
 
  margin-bottom: 94px;
+ background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+height: 600px;
+width: 1600px;
 }
 
 .caption{
