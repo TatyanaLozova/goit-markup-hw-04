@@ -612,7 +612,7 @@ color: var(--features-bg-color);
   padding: 0;
   margin: 0;
   width: calc((1200 - 90px) / 4);
-  margin-bottom: 94px;
+
 
 }
 .features li {
@@ -701,7 +701,7 @@ width: calc((100% - 60px) / 3);
 
 .footer {
   background-color: #2f303a;
-  padding: 60px 0;
+  
 }
   
   
