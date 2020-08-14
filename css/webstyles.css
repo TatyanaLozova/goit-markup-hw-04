@@ -58,7 +58,6 @@ background-image: linear-gradient(
 
 
 }
-
 /*.mail::before {
   display: inline-block;
   background-image: url(../images/дз4/envelope.svg);
@@ -98,87 +97,24 @@ background-image: linear-gradient(
 }
 
 
-.icon-antena::before {
-  display: block;
-  content: "";
+.features-block {
+   display: block;
     height: 120px;
     width: 270px;
-  background-image: url(../images/дз4/особенности/antenna.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-   background-position: center;
    background-color: #F5F4FA;
    border-radius: 4px;
    margin-bottom: 30px;
-
-}
-
-.icon-closk::before {
-  display: block;
-  content: "";
-  height: 120px;
-  width: 270px;
-  background-image: url(../images/дз4/особенности/clock.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-   background-position: center;
-   background-color: #F5F4FA;
-   border-radius: 4px;
-   margin-bottom: 30px;
+   align-items: center;
+   justify-content: center;
 }
 
 
-.icon-diagram::before {
-  display: block;
-  content: "";
-  height: 120px;
-  width: 270px;
-  background-image: url(../images/дз4/особенности/diagram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-   background-position: center;
-   background-color: #F5F4FA;
-   border-radius: 4px;
-   margin-bottom: 30px;
+.icon-features{
+   height: 70px;
+    width: 70px;
+    align-items: center;
+   justify-content: center;
 }
-
-.icon-astronavt::before {
-  display: block;
-  content: "";
-  height: 120px;
-  width: 270px;
-  background-image: url(../images/дз4/особенности/astronaut.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-   background-position: center;
-   background-color: #F5F4FA;
-   border-radius: 4px;
-   margin-bottom: 30px;
-}
-/*Наша команда*/
-
-
-/*.social{
-display: block;
-width: 44px;
-height: 44px;
-padding: 0;*/
-
-
-
-/*
-.icon-social{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  fill: #afb1b8;
-}
-
-.icon-social:hover,
-.icon-social:focus {
-  background-color: var(--accent-bg-color);
-  fill: #ffffff;*/
 
 
 
