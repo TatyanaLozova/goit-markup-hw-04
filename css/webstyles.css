@@ -1,6 +1,13 @@
 
 /*Домашнее задание 4*/
 
+
+.menu-link:focus,
+.menu-link:hover {
+  color:  #2196f3;
+  fill:  #2196f3;
+}
+
 a {
   text-decoration:none;
 color: #000 
